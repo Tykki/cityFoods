@@ -35,7 +35,7 @@ h1,h2,h3,h4{
 	display: grid;
 	place-items: center;
 	align-content: center;
-	min-height: 100vh
+	min-height: 50vh
 }
 .hidden{
 	opacity: 0;

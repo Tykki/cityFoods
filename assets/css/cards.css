@@ -7,7 +7,7 @@
   margin-left: 10px;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
+  /* cursor: pointer; */
   position: relative;
   color: #fff;
 }
@@ -22,7 +22,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 1;
   transition: opacity 0.2s ease-out;
 }
 .card h2 {
@@ -45,7 +45,9 @@
 }
 .card a {
   inset: auto auto 40px 30px;
-  color: inherit;
+  color: #B3DDF2;
+  
+  text-shadow: 0 5px 10px rgba(0,0,0,1);
   text-decoration: none;
 }
 .card:hover h2 {
@@ -58,7 +60,7 @@
 }
 .card:hover img {
   transition: opacity 0.3s ease-in;
-  opacity: 1;
+  opacity: .5;
 }
 
 .card:nth-child(2){
