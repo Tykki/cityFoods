@@ -3,6 +3,8 @@
 @import 'cards.css';
 @import 'gallery.css';
 @import 'carousel.css';
+@import 'rating.css';
+@import 'timer.css';
 
 :root {
   --background-color: rgb(6, 11, 25);
@@ -97,6 +99,11 @@ nav .nav-section {
 
 #nav-social-section {
   gap: 3rem;
+}
+
+#navTitle{
+	font-size: xxx-large;
+	margin: 0;
 }
 
 .placeholder{

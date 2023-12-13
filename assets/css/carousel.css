@@ -1,12 +1,16 @@
+.article-description-section.article-section > h1{
+  font-size: xxx-large;
+}
+
 .review {
     flex-grow: 1;
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   
   .review > article {
-    height: 100%;
-    width: 100%;
+    height: 80vh;
+    /* width: 100%; */
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
@@ -58,25 +62,9 @@
     border-top: 1px solid var(--border-color);
   }
   
-  .review > article:first-child > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
-  }
-  
-  .review > article:nth-child(2) > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
-  }
-  
-  .review > article:nth-child(3) > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1660580554695-d2ca5008f1f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
-  }
-  
-  .review > article:nth-child(4) > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1660766877755-4cac24f6cf21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80");
-  }
-  
-  .review > article > .article-image-section {
-    background-position: center;
-    background-size: cover;
+  .review > article > .article-review-section {
+    margin: 6% 4% 6% 4%;
+    font-size: x-large;
   }
   
   .review > article > .article-description-section {
@@ -106,7 +94,6 @@
   
   .review > article > .article-title-section > h2 {
     flex-basis: 50%;
-    font-family: "Montserrat", sans-serif;
     font-size: 3.5rem;
     line-height: 3rem;
     margin: 0px;
@@ -151,7 +138,7 @@
     }
   
     .review {
-      overflow-y: auto;
+      /* overflow-y: auto; */
     }
     
     .review > article {
@@ -174,7 +161,7 @@
       border-left: none;
     }
   
-    .review > article > .article-image-section {
+    .review > article > .article-review-section {
       order: 1;
     }
     

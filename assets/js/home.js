@@ -23,14 +23,13 @@ window.addEventListener('scroll', ()=>{
 		img.style.top = '-' + (window.scrollY / s[ind]) + 'px'
 	})
 })
-const home = document.querySelector('#home')
 const homeData = [{
 	title: 'South Loop',
 	cards: [{
 		title: 'Low Country',
 		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
 		img: 'https://static.wixstatic.com/media/583af2_f5e7d6b184c5473aac96107bb7ca441d~mv2.jpg/v1/fill/w_980,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/583af2_f5e7d6b184c5473aac96107bb7ca441d~mv2.jpg',
-		link: '#country',
+		link: '#south-loop',
 	}, {
 		title: 'Coming Soon',
 		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
@@ -48,7 +47,7 @@ const homeData = [{
 		title: 'Chesa\'s Bistro & Bar',
 		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
 		img: 'https://static.wixstatic.com/media/dcde64_5ed6384849c9490899c5a7e1db2135fa~mv2.jpg/v1/fill/w_506,h_314,al_c,q_80,usm_0.66_1.00_0.01/dcde64_5ed6384849c9490899c5a7e1db2135fa~mv2.jpg',
-		link: '#chesas',
+		link: '#north-west',
 	}, {
 		title: 'Coming Soon',
 		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
@@ -66,7 +65,7 @@ const homeData = [{
 		title: 'RPM Steak',
 		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
 		img: 'https://photos.singleplatform.com/0080360655bb1c414ce1f4b3cfa7af0eb54abcc6.jpg',
-		link: '#steak',
+		link: '#downtown',
 	}, {
 		title: 'Coming Soon',
 		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',

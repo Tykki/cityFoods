@@ -26,13 +26,13 @@
 			<nav data-toggled="false" data-transitionable="false">
 				<div id="nav-logo-section" class="nav-section">
 				  <a href="#home">
-					<h1>City Foods</h1>
+					<h1 id="navTitle">City Foods</h1>
 				  </a>
 				</div>
 				<div id="nav-mobile-section">
 				  <div id="nav-link-section" class="nav-section">
-					<a href="#">ABOUT</a>
-					<a href="#">WORK</a>
+					<a href="#home">HOME</a>
+					<a href="#">RATE</a>
 				  </div>
 				  <div id="nav-social-section" class="nav-section">
 					<a href="#">
@@ -46,7 +46,7 @@
 					</a>
 				  </div>
 				  <div id="nav-contact-section" class="nav-section">
-					<a href="#">GET IN TOUCH</a>
+					<a href="#coming-soon">GET IN TOUCH</a>
 				  </div>
 				</div>
 				<button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
@@ -58,21 +58,15 @@
 		<main id="home">
 			
 		</main>
-		<main id="country" class="clear">
-			<div class="navi">
-				<a href="#home"> Back </a>
-				<a href="#coming-soon">Forward</a>
-
-			</div>
-			<div class="grid">
-				<section class="grid-item"><h1 class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque iure ipsa reiciendis fuga saepe nostrum quis dolorem. Ea cumque ullam, deserunt magnam sit consequuntur, deleniti omnis adipisci nihil, corrupti qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum et iste sunt, natus dolor commodi repudiandae sit in consectetur molestiae reprehenderit ullam quos vitae quas totam molestias ea qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit doloremque vel voluptatum odio, quae ducimus totam in assumenda veritatis qui minus voluptatibus cumque! At praesentium consequatur voluptates saepe adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus alias magnam pariatur itaque quaerat sunt reiciendis perferendis aut voluptatum quasi harum, natus saepe placeat quibusdam vitae, porro facilis blanditiis minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto fugit nam, provident perspiciatis doloribus commodi in magnam, autem, assumenda quia quidem atque cum rem molestias repellat labore ipsa id?</h1></section>
-				<section class="grid-item">
-					<h1 class="">Low Country</h1>
-					<h1 class="">Address</h1>
-					<h1 class="">Chicago, IL</h1>
-				</section>
-			</div>
-			<div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+		<main id="south-loop" class="clear review">
+			
+		</main>
+		<main id="north-west" class="clear review">
+				
+		</main>
+		<main id="downtown" class="clear review"></main>
+		<main id="gallery" class="clear">
+			<div id="image-track" class="clear" data-mouse-down-at="0" data-prev-percentage="0">
 				<img class="image" src="https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
 				<img class="image" src="https://images.unsplash.com/photo-1610194352361-4c81a6a8967e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" draggable="false" />
 				<img class="image" src="https://images.unsplash.com/photo-1618202133208-2907bebba9e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
@@ -83,92 +77,37 @@
 				<img class="image" src="https://images.unsplash.com/photo-1516681100942-77d8e7f9dd97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
 			  </div>
 		</main>
-		<main id="chesas" class="clear review">
-			
-			  
-			  
-				<article data-index="0" data-status="active">
-				  <div class="article-image-section article-section"></div>
-				  <div class="article-description-section article-section">
-					<p>
-					  This is a recreation (from scratch) of <a class="source-link" href="https://www.dylanbrouwer.design/work" target="_blank">dylanbrouwer.design/work</a>. See how I did it <a class="yt-link" href="https://youtu.be/nG2IyH43xMU" target="_blank"><i class="fa-brands fa-youtube"></i></a>.
-					</p>
+		<main id="coming-soon" class="clear">
+			  <div class="main">
+				<div id='content'>
+				  <div class='title'>
+					<span>Till Next Time</span>
 				  </div>
-				  <div class="article-title-section article-section">
-					<h2>Recreation From Scratch</h2>
-					<i class="fa-light fa-plus-large"></i>
-				  </div>
-				  <div class="article-nav-section article-section">
-					<button class="article-nav-button" type="button" onclick="handleLeftClick()">
-					  <i class="fa-light fa-arrow-left-long"></i>
-					</button>
-					<button class="article-nav-button" type="button" onclick="handleRightClick()">
-					  <i class="fa-light fa-arrow-right-long"></i>
-					</button>
-				  </div>
-				</article>
-				<article data-index="1" data-status="inactive">    
-				  <div class="article-image-section article-section"></div>
-				  <div class="article-description-section article-section">
-					<p>A place where books hang out waiting to be grabbed. But don't be too grabby now, ya hear?</p>
-				  </div>
-				  <div class="article-title-section article-section">
-					  <h2>Wicked Cool Library Shelves</h2>
-					<i class="fa-light fa-plus-large"></i>
-				  </div>
-				  <div class="article-nav-section article-section">
-					<button class="article-nav-button" type="button" onclick="handleLeftClick()">
-					  <i class="fa-light fa-arrow-left-long"></i>
-					</button>
-					<button class="article-nav-button" type="button" onclick="handleRightClick()">
-					  <i class="fa-light fa-arrow-right-long"></i>
-					</button>
-				  </div>
-				</article>
-				<article data-index="2" data-status="inactive">    
-				  <div class="article-image-section article-section"></div>
-				  <div class="article-description-section article-section">
-					<p>The neatest lighthouse you ever saw. Ehh, actually it's kind of messy. But that's why the pic is of the outside.</p>
-				  </div>
-				  <div class="article-title-section article-section">
-					<h2>Neato Toledo Lighthouse</h2>
-					<i class="fa-light fa-plus-large"></i>
-				  </div>
-				  <div class="article-nav-section article-section">
-					<button class="article-nav-button" type="button" onclick="handleLeftClick()">
-					  <i class="fa-light fa-arrow-left-long"></i>
-					</button>
-					<button class="article-nav-button" type="button" onclick="handleRightClick()">
-					  <i class="fa-light fa-arrow-right-long"></i>
-					</button>
-				  </div>
-				</article>
-				<article data-index="3" data-status="inactive">    
-				  <div class="article-image-section article-section"></div>
-				  <div class="article-description-section article-section">
-					<p>
-					  The blobiest of blobs nestled deep in the heart of outer space. Well, technically the universe is both infinite and homogeneous so there isn't really a heart, per se.
-					</p>
-				  </div>
-				  <div class="article-title-section article-section">
-					<h2>Super Space Blob</h2>
-					<i class="fa-light fa-plus-large"></i>
-				  </div>
-				  <div class="article-nav-section article-section">
-					<button class="article-nav-button" type="button" onclick="handleLeftClick()">
-					  <i class="fa-light fa-arrow-left-long"></i>
-					</button>
-					<button class="article-nav-button" type="button" onclick="handleRightClick()">
-					  <i class="fa-light fa-arrow-right-long"></i>
-					</button>
-				  </div>
-				</article>
+				  <p>coming soon</p>
+				  <section>
+					<ul id="countdown">
+					  <li><span class="days timenumbers">01</span>
+						<p class="timeRefDays timedescription">days</p>
+					  </li>
+					  <li><span class="hours timenumbers">00</span>
+						<p class="timeRefHours timedescription">hours</p>
+					  </li>
+					  <li><span class="minutes timenumbers">00</span>
+						<p class="timeRefMinutes timedescription">minutes</p>
+					  </li>
+					  <li><span class="seconds timenumbers yellow-text">00</span>
+						<p class="timeRefSeconds timedescription">seconds</p>
+					  </li>
+					</ul>
+				  </section>
+				</div>
+			  </div>
 		</main>
-		<main id="steak" class="clear"></main>
-		<main id="coming-soon" class="clear"></main>
     </div>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/home.js"></script>
+	<script src="./assets/js/reviews.js"></script>
 	<script src="./assets/js/carousel.js"></script>
+
   </body>
 </html>

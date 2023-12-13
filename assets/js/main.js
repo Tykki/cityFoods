@@ -1,29 +1,27 @@
 //import './home'
 const homePage  = document.querySelector('#home')
-const countryPage = document.querySelector('#country')
+const southLoopPage = document.querySelector('#south-loop')
 const headerHero = document.querySelector('#header-hero')
 const navBar = document.querySelector('#nav')
-const chesasPage = document.querySelector('#chesas')
-const steakPage = document.querySelector('#steak')
+const northWestPage = document.querySelector('#north-west')
+const downtownPage = document.querySelector('#downtown')
 const comingSoonPage = document.querySelector('#coming-soon')
+const navTitle = document.querySelector('#navTitle')
+const home = document.querySelector('#home')
+const galleryPage = document.querySelector('#gallery')
+
 
 const hide = () => {
 	homePage.classList.add('clear')
-	countryPage.classList.add('clear')
+	southLoopPage.classList.add('clear')
 	headerHero.classList.add('clear')
-	chesasPage.classList.add('clear')
-  steakPage.classList.add('clear')
+	northWestPage.classList.add('clear')
+  downtownPage.classList.add('clear')
   comingSoonPage.classList.add('clear')
-//  works.classList.add('hide')
-//	artistPage.classList.add('hide')
-//	testiPage.classList.add('hide')
-//	galleryPage.classList.add('hide')
-//
-//	navBar.forEach(link => {
-//		link.classList.remove('active')
-//	})
+  galleryPage.classList.add('clear')
 }
 
+const flag = 0;
 const hashHandler = (hash) => {
     if (!hash) {
      return
@@ -32,16 +30,20 @@ const hashHandler = (hash) => {
     hide()
          navBar.classList.remove('clear')
          //    navBar.forEach(link => link.getAttribute('href') === hash ? link.classList.add('active'): false)
-     if (hash === "#country"){
-         countryPage.classList.remove('clear')
-    } else if (hash === "#chesas"){
-        chesasPage.classList.remove('clear')
-    } else if (hash === "#steak"){
-        steakPage.classList.remove('clear')
+     if (hash === "#south-loop"){
+         southLoopPage.classList.remove('clear')
+         navTitle.innerHTML = 'South Loop'
+    } else if (hash === "#north-west"){
+        northWestPage.classList.remove('clear')
+        navTitle.innerHTML = 'North West'
+    } else if (hash === "#downtown"){
+        downtownPage.classList.remove('clear')
+        navTitle.innerHTML = 'Downtown'
     } else if (hash === "#coming-soon"){
         comingSoonPage.classList.remove('clear')
-//     } else if (hash === "#works"){
-//         works.classList.remove('hide')
+    } else if (hash === "#gallery"){
+        galleryPage.classList.remove('clear')
+        location.hash = '#gallery'
 //     } else if (hash === "#testi"){
 //         testiPage.classList.remove('hide')
 //     } else if (hash === "#gallery"){
