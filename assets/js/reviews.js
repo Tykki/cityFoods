@@ -1,7 +1,7 @@
 const slData = [
     {
         title:'Lowcountry - South Loop',
-        review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque iure ipsa reiciendis fuga saepe nostrum quis dolorem. Ea cumque ullam, deserunt magnam sit consequuntur, deleniti omnis adipisci nihil, corrupti qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum et iste sunt, natus dolor commodi repudiandae sit in consectetur molestiae reprehenderit ullam quos vitae quas totam molestias ea qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit doloremque vel voluptatum odio, quae ducimus totam in assumenda veritatis qui minus voluptatibus cumque! At praesentium consequatur voluptates saepe adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus alias magnam pariatur itaque quaerat sunt reiciendis perferendis aut voluptatum quasi harum, natus saepe placeat quibusdam vitae, porro facilis blanditiis minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto fugit nam, provident perspiciatis doloribus commodi in magnam, autem, assumenda quia quidem atque cum rem molestias repellat labore ipsa id?',
+        review: 'Lowcountry Seafood Boil is a seafood lover\'s paradise, where the culinary journey is a symphony of flavors set against a backdrop of coastal charm. From the moment you step in, the inviting aroma of spices and fresh seafood envelops you, promising a dining experience that transcends the ordinary. The star of the show is undoubtedly the signature seafood boil. A feast for the senses, it arrives in a steaming pot, an artful medley of crab legs, plump shrimp, mussels, and crawfish, all generously coated in a secret blend of spices. The first crack of the crab shell releases an enticing aroma that signals the beginning of a gastronomic adventure. The boil is a harmonious blend of textures and tastes – the succulent sweetness of the seafood, the bold kick of spices, and the tender perfection achieved through skillful cooking. Each bite is a celebration of coastal indulgence, transporting diners to the vibrant shores of the Lowcountry. The menu extends beyond the boil, offering delightful side dishes that complement the main attraction. The hushpuppies are golden bites of perfection, and the garlic butter-soaked corn on the cob adds a sweet, savory touch that enhances the overall dining experience. Service at Lowcountry Seafood Boil is as warm as the flavors they serve. The staff is knowledgeable about the menu, offering recommendations with a genuine passion for the cuisine they represent. The atmosphere is laid-back and friendly, creating a space where seafood enthusiasts can gather and savor the bounty of the ocean. In the realm of seafood boils, Lowcountry stands tall as a beacon of excellence. It\'s not just a restaurant; it\'s a culinary voyage that captures the essence of coastal living. Prepare to roll up your sleeves and immerse yourself in a seafood feast that lingers in your memory long after the last shell has been cracked.',
         street: '1132 S. Wabash Ave.',
         city: 'Chicago IL 60605',
         dets: 'Happy Hour Monday-Friday 5pm - 7pm.',
@@ -167,12 +167,12 @@ dtData.forEach((data, ind) => {
             <div class="article-title-section article-section">
             <h2><a href="${data.link}">Gallery</a></h2>
             <div class="rating-stars">
-                <input type="radio" name="rating" id="nw${ind}rs0"><label for="nw${ind}rs0"></label>
-                <input type="radio" name="rating" id="nw${ind}rs1"><label for="nw${ind}rs1"></label>
-                <input type="radio" name="rating" id="nw${ind}rs2"><label for="nw${ind}rs2"></label>
-                <input type="radio" name="rating" id="nw${ind}rs3"><label for="nw${ind}rs3"></label>
-                <input type="radio" name="rating" id="nw${ind}rs4"><label for="nw${ind}rs4"></label>
-                <input type="radio" name="rating" id="nw${ind}rs5"><label for="nw${ind}rs5"></label>
+                <input type="radio" name="rating" id="dt${ind}rs0"><label for="dt${ind}rs0"></label>
+                <input type="radio" name="rating" id="dt${ind}rs1"><label for="dt${ind}rs1"></label>
+                <input type="radio" name="rating" id="dt${ind}rs2"><label for="dt${ind}rs2"></label>
+                <input type="radio" name="rating" id="dt${ind}rs3"><label for="dt${ind}rs3"></label>
+                <input type="radio" name="rating" id="dt${ind}rs4"><label for="dt${ind}rs4"></label>
+                <input type="radio" name="rating" id="dt${ind}rs5"><label for="dt${ind}rs5"></label>
                 <span class="number"></span>
             </div>
             </div>

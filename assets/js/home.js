@@ -27,7 +27,7 @@ const homeData = [{
 	title: 'South Loop',
 	cards: [{
 		title: 'Low Country',
-		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
+		preview: 'Lowcountry Seafood Boil is a seafood lover\'s paradise, where the culinary journey is a symphony of flavors set against a backdrop of coastal charm. From the moment you step in, the inviting aroma of spices and fresh seafood envelops you...',
 		img: 'https://static.wixstatic.com/media/583af2_f5e7d6b184c5473aac96107bb7ca441d~mv2.jpg/v1/fill/w_980,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/583af2_f5e7d6b184c5473aac96107bb7ca441d~mv2.jpg',
 		link: '#south-loop',
 	}, {
@@ -45,7 +45,7 @@ const homeData = [{
 	title: 'North West',
 	cards: [{
 		title: 'Chesa\'s Bistro & Bar',
-		preview: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.',
+		preview: 'Nestled in the Avondale area of Chicago, Chesa\'s is a soulful oasis for those seeking a taste of tradition and a dash of culinary love. As a connoisseur of comfort food, I can confidently say that Chesa\'s doesn\'t just serve meals...',
 		img: 'https://static.wixstatic.com/media/dcde64_5ed6384849c9490899c5a7e1db2135fa~mv2.jpg/v1/fill/w_506,h_314,al_c,q_80,usm_0.66_1.00_0.01/dcde64_5ed6384849c9490899c5a7e1db2135fa~mv2.jpg',
 		link: '#north-west',
 	}, {
