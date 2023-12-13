@@ -1,11 +1,11 @@
-header{
+#header-hero{
     min-height: 40em;
     height: 100vh;
     overflow: hidden;
     position: relative;
   }
   
-  header::before{
+  #header-hero::before{
     content: '';
     background: linear-gradient(0deg, #000, rgba(0, 0, 0, 0));
     width: 100%;

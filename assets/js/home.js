@@ -19,16 +19,9 @@ window.addEventListener('scroll', ()=>{
 // Divide by a bigger num to make the effect more subtle.
 // Apply this to make farther objects move slower,
 // and closer objs move faster
-pImages.forEach((img, ind) => {
-	img.style.top = '-' + (window.scrollY / s[ind]) + 'px'
-})
-// pImages[0].style.top = '-' + (window.scrollY / 2.5) + 'px'
-// pImages[1].style.top = '-' + (window.scrollY / 3.5) + 'px'
-// pImages[2].style.top = '-' + (window.scrollY / 4) + 'px'
-// pImages[3].style.top = '-' + (window.scrollY / 5) + 'px'
-// pImages[4].style.top = '-' + (window.scrollY / 6) + 'px'
-// pImages[5].style.top = '-' + (window.scrollY / 7) + 'px'
-// pImages[6].style.top = '-' + (window.scrollY / 9) + 'px'
+	pImages.forEach((img, ind) => {
+		img.style.top = '-' + (window.scrollY / s[ind]) + 'px'
+	})
 })
 const home = document.querySelector('#home')
 const homeData = [{
@@ -117,7 +110,7 @@ const homeCards = document.querySelectorAll('.cards')
  				${data.cards[ind].preview}
  				</p>
  				<a href="${data.cards[ind].link}" class="button">
- 				${'<h3>Read More</h3>'} 
+ 				${ind === 0 ? '<h3>Read More</h3>': '<h3>Learn More</h3>'} 
  				</a>
  			</div>
  		</section>
@@ -127,7 +120,7 @@ const homeCards = document.querySelectorAll('.cards')
 const homeElems = document.querySelectorAll('.hidden')
 const observer = new IntersectionObserver((entries) => {
 	entries.forEach(entry => {
-		console.log(entry)
+//		console.log(entry)
 		if (entry.isIntersecting){
 			entry.target.classList.add('show')
 		} else {
